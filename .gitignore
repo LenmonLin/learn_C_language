@@ -82,6 +82,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# clanugae
+# c_lanugae_with_codeblock
 # ===========================
 *.cbp
+*.layout
