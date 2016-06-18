@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,n;
+    double sum = 0.0;
+    printf("please input final number:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        sum += 1.0/i;
+    }
+    printf("the sum of reciprocals is :%lf",sum);
+    return 0;
+}
