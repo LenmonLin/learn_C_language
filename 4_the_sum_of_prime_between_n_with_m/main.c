@@ -8,7 +8,7 @@ int main()
     scanf("%d %d",&n,&m);
     int j = 2;
     while(count<=m){
-        int is_prime = 1;
+        int is_prime = 1; //is_prime = 1 要放while循环内部，否则无法退出循环
         for(i=2;i<j;i++){
             if(j%i == 0){
                 is_prime = 0;
@@ -20,7 +20,7 @@ int main()
             if(count>=n){
                 sum += i;
             }
-            count++;
+            count++; //注意count++不能放在if（count >=n)里面，否则无法count++
         }
         j++;
     }
