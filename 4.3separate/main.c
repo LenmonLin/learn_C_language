@@ -20,7 +20,7 @@ int main()
             printf(" ");
         }
         x %= mask;
-         mask /= 10;
+        mask /= 10;
 
     }while( mask>0);
     return 0;

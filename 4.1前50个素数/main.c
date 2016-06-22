@@ -16,7 +16,8 @@ int main()
         }
         if (isprime == 1){
             printf("%d ",i);
-            count++;}
+            count++;
+        }
         j++;
     }
     return 0;
